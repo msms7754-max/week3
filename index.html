@@ -13,10 +13,10 @@
 <h1>< 발음하기 어려운 영어 단어 ></h1>
 <p>단어를 클릭하면 발음이 나옵니다!</p>
 
-<img id = "word1" src = "단어1.png" width="500" height= "50">
-<img id = "word2" src = "단어2.png" width="500" height= "50">
-<img id = "word3" src = "단어3.png" width="500" height= "50">
-<img id = "word4" src = "단어4.png" width="500" height= "50">
+<img id = "word1" src = "word1.png" width="500" height= "50">
+<img id = "word2" src = "word2.png" width="500" height= "50">
+<img id = "word3" src = "word3.png" width="500" height= "50">
+<img id = "word4" src = "word4.png" width="500" height= "50">
 
 <h2>단어 뜻풀이</h2>
 
@@ -26,10 +26,10 @@
 <p> 4. antidisestablishmentarianism: 국교 폐지 조례 반대론: 국교에 대하여 국가가 지지와 시인을 철폐하는 데 대한 반대</p>
 
 
-<audio id = "word1pro" src = "단어1발음.mp3"></audio>
-<audio id = "word2pro" src = "단어2발음.mp3"></audio>
-<audio id = "word3pro" src = "단어3발음.mp3"></audio>
-<audio id = "word4pro" src = "단어4발음.mp3"></audio>
+<audio id = "word1pro" src = "word1pro.mp3"></audio>
+<audio id = "word2pro" src = "word2pro.mp3"></audio>
+<audio id = "word3pro" src = "word3pro.mp3"></audio>
+<audio id = "word4pro" src = "word4pro.mp3"></audio>
 
 <script>
 	
