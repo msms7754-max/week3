@@ -13,10 +13,17 @@
 <h1>< 발음하기 어려운 영어 단어 ></h1>
 <p>단어를 클릭하면 발음이 나옵니다!</p>
 
-<img id = "word1" src = "word1.png" width="500" height= "50">
-<img id = "word2" src = "word2.png" width="500" height= "50">
-<img id = "word3" src = "word3.png" width="500" height= "50">
-<img id = "word4" src = "word4.png" width="500" height= "50">
+<img id = "word1" src = "단어1.png" width="500" height= "50" onmouseover="this.style.filter='invert(100%)';" 
+onmouseout = "this.style.filter = 'none';">
+<img id = "word2" src = "단어2.png" width="500" height= "50"
+onmouseover="this.style.filter='invert(100%)';" 
+onmouseout = "this.style.filter = 'none';">
+<img id = "word3" src = "단어3.png" width="500" height= "50"
+onmouseover="this.style.filter='invert(100%)';" 
+onmouseout = "this.style.filter = 'none';">
+<img id = "word4" src = "단어4.png" width="500" height= "50"
+onmouseover="this.style.filter='invert(100%)';" 
+onmouseout = "this.style.filter = 'none';">
 
 <h2>단어 뜻풀이</h2>
 
