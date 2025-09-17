@@ -1,1 +1,57 @@
-# week3
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		body{font-family:'SCore Dream', sans-serif; text-align: center;}
+		
+	</style>
+</head>
+<body>
+<h1>< 발음하기 어려운 영어 단어 ></h1>
+<p>단어를 클릭하면 발음이 나옵니다!</p>
+
+<img id = "word1" src = "단어1.png" width="500" height= "50">
+<img id = "word2" src = "단어2.png" width="500" height= "50">
+<img id = "word3" src = "단어3.png" width="500" height= "50">
+<img id = "word4" src = "단어4.png" width="500" height= "50">
+
+<h2>단어 뜻풀이</h2>
+
+<p> 1. Floccinaucinihilipilification: 무가치한 것을 경시하는 행동 </p>
+<p> 2. Pneumonoultramicroscopicsilicovolcanoconiosis: 폐에서 발생하는 질병인 진폐증을 뜻함 </p>
+<p> 3. Worcestershire: '우스터셔', 잉글랜드 남서부의 옛 주 </p>
+<p> 4. antidisestablishmentarianism: 국교 폐지 조례 반대론: 국교에 대하여 국가가 지지와 시인을 철폐하는 데 대한 반대</p>
+
+
+<audio id = "word1pro" src = "단어1발음.mp3"></audio>
+<audio id = "word2pro" src = "단어2발음.mp3"></audio>
+<audio id = "word3pro" src = "단어3발음.mp3"></audio>
+<audio id = "word4pro" src = "단어4발음.mp3"></audio>
+
+<script>
+	
+word1.onclick = function(){
+	word1pro.play();
+}
+
+word2.onclick = function(){
+	word2pro.play();
+}
+
+word3.onclick = function(){
+	word3pro.play();
+}
+
+word4.onclick = function(){
+	word4pro.play();
+}
+
+
+</script>
+
+
+</body>
+</html>
